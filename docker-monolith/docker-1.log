@@ -5,4 +5,3 @@ hello-world                latest              fce289e99eb9        9 months ago 
 
 
 Image это общий вид стека RO слоев, в то время как к container добавляется RW слой сверху. Так же container содержит информацию о NetworkSettings, Mounts и имеет STATUS (UP или Exited)
-
