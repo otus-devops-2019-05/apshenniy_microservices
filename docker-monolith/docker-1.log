@@ -1,0 +1,7 @@
+REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+yourname/ubuntu-tmp-file   latest              8fc629ae577f        2 minutes ago       122MB
+ubuntu                     16.04               b9409899fe86        24 hours ago        122MB
+hello-world                latest              fce289e99eb9        9 months ago        1.84kB
+
+
+Image это общий вид стека RO слоев, в то время как к container добавляется RW слой сверху. Так же container содержит информацию о NetworkSettings, Mounts и имеет STATUS (UP или Exited)
